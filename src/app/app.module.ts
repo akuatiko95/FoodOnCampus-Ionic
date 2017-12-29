@@ -11,7 +11,7 @@ import { ContactPage } from '../pages/contact/contact';
 import { HomePage } from '../pages/home/home';
 import { TabsPage } from '../pages/tabs/tabs';
 import { SettingsPage } from '../pages/settings/settings';
-
+import { InformationPage } from '../pages/information/information';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -24,7 +24,8 @@ import { FoodOnCampusProvider } from '../providers/food-on-campus/food-on-campus
     ContactPage,
     HomePage,
     TabsPage,
-    SettingsPage
+    SettingsPage,
+    InformationPage
   ],
   imports: [
     BrowserModule,
@@ -39,7 +40,8 @@ import { FoodOnCampusProvider } from '../providers/food-on-campus/food-on-campus
     ContactPage,
     HomePage,
     TabsPage,
-    SettingsPage
+    SettingsPage,
+    InformationPage
   ],
   providers: [
     StatusBar,

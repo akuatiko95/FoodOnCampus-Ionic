@@ -18,7 +18,7 @@ export class FoodOnCampusProvider {
   // "week"
 
   constructor(public http: Http) {
-    console.log('Hello FoodOnCampusProvider Provider');
+//    console.log('Hello FoodOnCampusProvider Provider');
     // console.log(this.url);
     // console.log('Arriba iba la url');
     // console.log(this.date + '   ' + this.place);
