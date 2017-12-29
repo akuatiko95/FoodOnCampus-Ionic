@@ -3,7 +3,7 @@ import { NavController } from 'ionic-angular';
 import { FoodOnCampusProvider} from '../../providers/food-on-campus/food-on-campus';
 import { Storage } from "@ionic/storage";
 import { InformationPage } from '../information/information';
-import { PARAMETERS } from '@angular/core/src/util/decorators';
+//import { PARAMETERS } from '@angular/core/src/util/decorators';
 
 @Component({
   selector: 'page-home',
