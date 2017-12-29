@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Home</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding class="home">
+<!-- 
+<ion-grid *ngIf="food">
+
+<ion-row>
+  <ion-col widh-50 offset-25>
+    <h2 class="location">{{food.menus.menu[0]["@attributes"].date}}</h2>
+    <h3 class="location">{{food.menus.menu[0]["@attributes"].canteen}}</h3>
+  </ion-col>
+</ion-row>
+
+</ion-grid>  -->
+
+<!-- <ion-grid *ngIf="food">
+
+<button ion-button>{{food.menus.menu[0]["@attributes"].date}}</button>
+
+</ion-grid>
+ -->
+
+ <ion-item *ngFor="let f of food; let i = index" (click)="onButtonClick(i)">
+    {{food[i]["@attributes"].canteen}}
+    <button ion-button>{{food[i]["@attributes"].date}}</button>
+  </ion-item>
+
+</ion-content>
